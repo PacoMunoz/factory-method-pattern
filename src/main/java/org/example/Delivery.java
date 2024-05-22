@@ -10,5 +10,6 @@ public abstract class Delivery {
         System.out.println("Fin del transporte");
     }
 
+    // factory method
     public abstract Transport createTransport();
 }
